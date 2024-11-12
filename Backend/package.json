@@ -5,10 +5,10 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-   "dev": "node index.js",
+  "dev": "node index.js",
   "start": "node index.js",
-  "build": "npm install && npm install --prefix Frontend && npm run build --prefix Frontend"
-  },
+  "build": "npm install --prefix Frontend && npm run build --prefix Frontend"
+},
   "keywords": [
     "MERN"
   ],
